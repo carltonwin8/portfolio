@@ -1,0 +1,15 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "The code in this repositor is based on the [Responsive Portfolio Website](https://www.youtube.com/watch?v=gYzHS-n2gqU&list=PLillGF-RfqbYoGoCjKoMOkVznV6aSXKzU) video series.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "keywords": [],
+  "author": "Carlton Joseph",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
