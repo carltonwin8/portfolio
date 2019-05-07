@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "The code in this repositor is based on the [Responsive Portfolio Website](https://www.youtube.com/watch?v=gYzHS-n2gqU&list=PLillGF-RfqbYoGoCjKoMOkVznV6aSXKzU) video series.",
   "main": "index.js",
+  "homepage": "https://carltonwin8.github.io/portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy:git": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Carlton Joseph",
   "license": "MIT",
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.12.0"
   }
 }
